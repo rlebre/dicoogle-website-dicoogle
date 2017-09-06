@@ -1,4 +1,5 @@
 <?php
+	$headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
 	$name = @trim(stripslashes($_POST['name'])); 
 	$email = @trim(stripslashes($_POST['email']));
@@ -7,7 +8,7 @@
 	$message = @trim(stripslashes($_POST['message'])); 
 
 	$email_from = $email;
-	$email_to = 'email@yourdomain.com';//replace with your email
+	$email_to = 'ruilebre@ua.pt';//replace with your email
 
 	$body = 'Name: ' . $name . "\n\n" . 'Email: ' . $email . "\n\n" . 'Subject: ' . $subject . "\n\n" . 'Website: ' . $website . "\n\n" . 'Message: ' . $message;
 
