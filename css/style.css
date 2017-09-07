@@ -394,7 +394,7 @@
 
 	.st-service h2{
 		font-size: 16px;
-		margin-top: 7px;
+		margin-top: 30px;
 		margin-bottom: 15px;
 	}
 
@@ -1118,4 +1118,20 @@
 
 .circletag img{
     margin-top:30px;
+}
+
+
+.st-service .circletag {
+	width: 50px;
+    height: 50px;
+}
+
+.st-service .circletag img {
+	margin-top:10px;
+}
+
+.circletag i {
+	color: white;
+    font-size: 2em;
+    padding-top: 10px;
 }
